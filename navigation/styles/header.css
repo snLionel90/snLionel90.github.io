@@ -1,0 +1,83 @@
+/*HEADER O CABECERA*/
+/*Seccion Principal*/
+:root{
+    --rojo: #E50914;
+    --fondo: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+.flags{
+    width: auto;
+    margin: auto;
+}
+
+.icon-flagESP{
+    background-image: url(../icons/ES-Spain-Flag-icon.png);
+}
+.icon-flagEU{
+    background-image: url(../icons/EU-European-Union-Flag-icon.png);
+}
+
+/*MI LOGOTIPO*/
+.logo1 {
+    background-color: tomato;
+    height: 50px;
+    width: 20px;
+    position: absolute;
+}
+.logo1::before {
+    background-color: tomato;
+    height: 50px;
+    width: 20px;
+    position: absolute;
+    content: '';
+    left: 70px;
+}
+.logon {
+    position: absolute;
+    height: 50px;
+    width: 20px;
+    background: #e50913;
+    left: 36px;
+    transform: skew(-32deg);
+}
+
+/*navegacion en la cabecera*/
+header{
+    padding: 30px 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+header nav a {
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 21px;
+}
+
+header nav a:hover,
+header nav a.active{
+    color: #fff;
+}
+
