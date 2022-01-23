@@ -1,0 +1,7 @@
+body{
+    background:var(--fondo);
+}
+:root{
+    --rojo: #E50914;
+    --fondo: #141414;
+}
