@@ -6,3 +6,9 @@ p {
     color: ivory;
     font-family: fantasy;
 }
+
+body{
+    background: url(../img/NewCanvas9.jpg);
+    font-family: 'Open Sans', sans-serif;
+    
+}

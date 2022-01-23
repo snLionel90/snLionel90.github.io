@@ -3,6 +3,7 @@
 :root{
     --rojo: #E50914;
     --fondo: #141414;
+    --fondo2: #0b2399;
 }
 
 * {
@@ -11,10 +12,8 @@
     box-sizing: border-box;
 }
 
-body { 
-    
-    font-family: 'Open Sans', sans-serif;
-
+body{
+    background-color: var(--fondo2);
 }
 .container {
     width: 90%;
@@ -23,13 +22,6 @@ body {
 .flags{
     width: auto;
     margin: auto;
-}
-
-.icon-flagESP{
-    background-image: url(../icons/ES-Spain-Flag-icon.png);
-}
-.icon-flagEU{
-    background-image: url(../icons/EU-European-Union-Flag-icon.png);
 }
 
 /*MI LOGOTIPO*/
@@ -58,6 +50,7 @@ body {
 /*navegacion en la cabecera*/
 header{
     background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
     padding: 30px 0;
 }
 
@@ -67,7 +60,6 @@ header .container{
     align-items: center;
 
 }
-
 
 header nav a {
     color: #aaa;
