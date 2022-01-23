@@ -12,7 +12,7 @@
 }
 
 body { 
-    background: var(--fondo);
+    
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -57,6 +57,7 @@ body {
 }
 /*navegacion en la cabecera*/
 header{
+    background: var(--fondo);
     padding: 30px 0;
 }
 
