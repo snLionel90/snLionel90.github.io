@@ -12,9 +12,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: var(--fondo2);
-}
 .container {
     width: 90%;
     margin: auto;
