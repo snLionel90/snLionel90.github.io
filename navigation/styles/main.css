@@ -6,7 +6,7 @@ body{
 }
 .box{
     display: grid;
-    align-items: flex-end;
+    align-items: center;
 }
 .presentation {
     align-items: center;
@@ -17,7 +17,7 @@ body{
     color: ivory;
     font-family: fantasy;
 }
-.presentation >p {
+.presentation >label {
     color: aqua;
 }
 .description{
@@ -27,14 +27,15 @@ body{
     font-family: monospace;
     text-align: center;
 }
-.container{
-    padding-left: 18%;
+.menu{
+    align-items: center;
+    padding-left: 15%;
     font-size: large;
     display: flex;
     color: rosybrown;  
     size: 200px 200px; 
 }
-.container > p{
+.menu > p{
     display: flex;
     font-family: sans-serif;
 }

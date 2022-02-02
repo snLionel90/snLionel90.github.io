@@ -11,11 +11,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.container {
-    width: 90%;
-    margin: auto;
+.container{
+    align-items: center;
+    font-size: large;
+    display: flex;
+    color: rosybrown;  
+    size: 200px 200px; 
 }
+
 .flags{
     width: auto;
     margin: auto;
