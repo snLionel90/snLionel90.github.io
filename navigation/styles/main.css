@@ -1,26 +1,30 @@
+body{
+    background: url(../img/fondo.jpg);
+    
+    background-repeat:no-repeat;
+    background-size:auto;
+}
 
 .presentation {
     align-items: center;
     text-align: center;
-    font-size: large;
+}
+.presentation label{
+    font-size: 35px;
     color: ivory;
     font-family: fantasy;
 }
-
-body{
-    background: url(../img/NewCanvas9.jpg);
-    font-family: 'Open Sans', sans-serif;
-    
+.presentation >p {
+    color: aqua;
 }
+
 .container{
-
+    padding-left: 15%;
+    font-size: large;
+    display: grid;
+    color: rosybrown;  
+    size: 200px 200px; 
 }
-.botonimagen1{
-    background: url(../icons/gallery.png);
-    background-repeat:no-repeat;
-    height:200px;
-    width: 200px;
-    background-position:center;
-    font-family: fantasy;
-    color: antiquewhite;
+.container > p{
+    display: grid;
 }
