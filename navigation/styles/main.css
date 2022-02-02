@@ -12,3 +12,15 @@ body{
     font-family: 'Open Sans', sans-serif;
     
 }
+.container{
+
+}
+.botonimagen1{
+    background: url(../icons/gallery.png);
+    background-repeat:no-repeat;
+    height:200px;
+    width: 200px;
+    background-position:center;
+    font-family: fantasy;
+    color: antiquewhite;
+}
