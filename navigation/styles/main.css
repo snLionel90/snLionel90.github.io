@@ -4,7 +4,10 @@ body{
     background-repeat:no-repeat;
     background-size:auto;
 }
-
+.box{
+    display: grid;
+    align-items: flex-end;
+}
 .presentation {
     align-items: center;
     text-align: center;
@@ -17,14 +20,21 @@ body{
 .presentation >p {
     color: aqua;
 }
-
+.description{
+    padding-left: auto;
+    font-size: 20px;
+    color: ivory;
+    font-family: monospace;
+    text-align: center;
+}
 .container{
-    padding-left: 15%;
+    padding-left: 18%;
     font-size: large;
-    display: grid;
+    display: flex;
     color: rosybrown;  
     size: 200px 200px; 
 }
 .container > p{
-    display: grid;
+    display: flex;
+    font-family: sans-serif;
 }

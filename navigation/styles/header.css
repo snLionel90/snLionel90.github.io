@@ -20,7 +20,14 @@
     width: auto;
     margin: auto;
 }
-
+.logo2{
+    margin-left: 100px;
+    position: absolute;
+}
+.logo3{
+    margin-left: 150px;
+    position: absolute;
+}
 /*MI LOGOTIPO*/
 .logo1 {
     background-color: tomato;

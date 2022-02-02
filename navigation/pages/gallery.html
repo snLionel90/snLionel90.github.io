@@ -8,23 +8,32 @@
     <link rel="stylesheet" href="../styles/gallery.css">
     <link rel="stylesheet" href="../styles/header.css">
     
-
     <title>Document</title>
+    <script id="wpcp_disable_Right_Click" type="text/javascript">
+        document.ondragstart = function() { return false;}
+            function nocontext(e) {
+               return false;
+            }
+            document.oncontextmenu = nocontext;
+    </script>
 </head>
 <body>
     <header> 
         <div class="flags">
             <div class="logo1"><span class="logon"></span></div>
+            <div class="logo2"><img src="../icons/EU-European-Union-Flag-icon.png" alt="x"></div>
+            <div class="logo3"><img src="../icons/ES-Spain-Flag-icon.png" alt="x"></div>
+
         </div>
         <div class="container">     
             <h2></h2>
             <nav>
                 <a href="../../index.html" >Principal</a>
                 <a href="#" class="active">Illustarions</a>
-                <a href="../pages/tutorials.html" >Tutorials</a>
-                <a href="../pages/videos.html" >Videoss</a>
+                <a href="./tutorials.html" >Tutorials</a>
+                <a href="./videos.html" >Videoss</a>
                 <a href="#" >Comentarios 2</a>
-                <a href="../pages/about.html">About the project</a>
+                <a href="./about.html">About the project</a>
             </nav>
         </div>
     </header>
