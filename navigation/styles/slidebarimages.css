@@ -1,13 +1,4 @@
-:root{
-    --rojo: #E50914;
-    --fondo: #141414;
-    --fondo2: #0b2399;
-}
-
-body {
-    background: var(--fondo2);
-    
-}
+/**/
 .slide_bar{
     margin: auto;
     height: fit-content;
@@ -70,4 +61,20 @@ ul.slider li:target {
       height: 20px;
       font-size: 20px;
       border-radius: 100%;
+}
+.return{
+    font-size: large;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+
+}
+.pret10{
+    display: grid;
+}
+.pret10 > p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: aliceblue;
+    text-align: center;
 }
