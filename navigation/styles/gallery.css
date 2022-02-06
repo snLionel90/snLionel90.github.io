@@ -1,13 +1,43 @@
-.gallery_content{
-
+body{
+    background: url(../img/fondo.jpg);
 }
-.B2021{
+.title_gallery label{
+    font-size: 25px;
+    color: ivory;
+    font-family: fantasy;
+}
+.title_gallery{
     align-items: center;
+    text-align: center;
+}
+
+/*Gallery*/
+
+.gallery_content{
+    padding-left: 15%;
     font-size: large;
     display: flex;
     color: rosybrown;  
-    size: 200px 200px;
+    size: 200px 200px; 
+    border: 6px;
+    border-color: aliceblue;
 }
-.B2020{
 
+.gallery_content_box2{
+    padding-left: 15%;
+    font-size: large;
+    display: flex;
+    color: rgb(167, 98, 98);  
+    size: 200px 200px; 
+    border: 6px;
+    border-color: aliceblue;
+}
+.gallery_content_box3{
+    padding-left: 15%;
+    font-size: large;
+    display: flex;
+    color: rgb(167, 98, 98);  
+    size: 200px 200px; 
+    border: 6px;
+    border-color: aliceblue;
 }
