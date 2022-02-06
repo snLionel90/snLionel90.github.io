@@ -7,14 +7,12 @@
     align-items: center;
     text-align: center;
 }
-.presentation label{
+.presentation > label{
     font-size: 35px;
-    color: ivory;
+    color: aqua;
     font-family: fantasy;
 }
-.presentation >label {
-    color: aqua;
-}
+
 .description{
     padding-left: auto;
     font-size: 20px;
