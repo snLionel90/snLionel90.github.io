@@ -36,7 +36,9 @@
 .icon-linkedin{
   background-image: url(../icons/icon-linkedin.png);
 }
-
+.icon-deviantart{
+  background-image:url(../icons/icon-deviantart.png) ;
+}
 #title{
   top: 14px;
   float: left;
