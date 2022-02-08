@@ -2,14 +2,44 @@
 
 div.scrollmenu{
     overflow: auto;
-    white-space: nowrap;
+   
 }
 div.scrollmenu img{
-    width: 40%;
-    height: 40%;
+    width: 100%;
+    height: 100%;
     padding: 10px;
     display: inline-block;
+    background-size: auto;
 }
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+li {
+    position: relative;
+    float: left;
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    margin: 0 15px 15px 0;
+    }
+.info {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+    width: 300px;
+    color: #FFF;
+    padding: 10px;
+}
+li:hover .info {
+    display: block;
+}
+
 .return{
     font-size: large;
     border-radius: 15px;
