@@ -10,14 +10,16 @@ body{
     align-items: center;
     text-align: center;
 }
-
+.title_gallery a:hover,
+.title_gallery a:active{
+    color: chocolate;
+}
 /*Gallery*/
 
 .gallery_content{
     padding-left: 15%;
     font-size: large;
-    display: flex;
-    color: rosybrown;  
+    display: flex;  
     size: 200px 200px; 
     border: 6px;
     border-color: aliceblue;
@@ -26,8 +28,7 @@ body{
 .gallery_content_box2{
     padding-left: 15%;
     font-size: large;
-    display: flex;
-    color: rgb(167, 98, 98);  
+    display: flex; 
     size: 200px 200px; 
     border: 6px;
     border-color: aliceblue;
@@ -36,8 +37,12 @@ body{
     padding-left: 15%;
     font-size: large;
     display: flex;
-    color: rgb(167, 98, 98);  
     size: 200px 200px; 
     border: 6px;
     border-color: aliceblue;
+}
+.gallery_content img:hover,
+.gallery_content img:active{
+    color: aliceblue;
+    
 }
