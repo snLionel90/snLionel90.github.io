@@ -21,6 +21,7 @@ div.scrollmenu img{
 .return a:active{
     color: aqua;
     background-color: black;
+    font-variant: small-caps;
 }
 
 .pret10{
