@@ -17,7 +17,9 @@ body{
 }
 /*Gallery*/
 
-.gallery_content{
+.gallery_content,
+.gallery_content_box2,
+.gallery_content_box3{
     padding-left: 15%;
     font-size: large;
     display: flex;  
@@ -26,24 +28,11 @@ body{
     border-color: aliceblue;
 }
 
-.gallery_content_box2{
-    padding-left: 15%;
-    font-size: large;
-    display: flex; 
-    size: 200px 200px; 
-    border: 6px;
-    border-color: aliceblue;
-}
-.gallery_content_box3{
-    padding-left: 15%;
-    font-size: large;
-    display: flex;
-    size: 200px 200px; 
-    border: 6px;
-    border-color: aliceblue;
-}
 .gallery_content img:hover,
-.gallery_content img:active{
-    color: aliceblue;
-    
+.gallery_content img:active,
+.gallery_content_box2 img:hover,
+.gallery_content_box2 img:active,
+.gallery_content_box3 img:hover,
+.gallery_content_box3 img:active{
+   filter: opacity(.5);    
 }
