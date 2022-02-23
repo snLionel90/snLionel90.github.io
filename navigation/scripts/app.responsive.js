@@ -98,8 +98,6 @@ function addChat(input, prokt) {
     botDiv.innerHTML = `Bot-Chan: <span id="bot-response">${prokt}</span>`;
     mainDiv.appendChild(botDiv);
     speak(prokt);
-
-
     setTimeout(() => {
         botText.innerText = `${product}`;
         textToSpeech(product)
